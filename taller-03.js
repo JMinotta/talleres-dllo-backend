@@ -7,9 +7,9 @@ function desglosarString(cadena, tipo){
     : "No es un tipo valido"
 }
 
-console.log(desglosarString("murcielagos","vocales"))
-console.log(desglosarString("murcielagos","consonantes"))
-console.log(desglosarString("murcielagos","12121122")) 
+// console.log(desglosarString("murcielagos","vocales"))
+// console.log(desglosarString("murcielagos","consonantes"))
+// console.log(desglosarString("murcielagos","12121122")) 
 
 // Punto 2
 
@@ -24,8 +24,8 @@ function twoSum(lista, objetivo){
     return []
 }
 
-console.log(twoSum([2,7,11,15], 9))
-console.log(twoSum([3,4,2], 6))
+// console.log(twoSum([2,7,11,15], 9))
+// console.log(twoSum([3,4,2], 6))
 
 // Punto 3
 
@@ -41,10 +41,10 @@ function conversionRomana(cadena){
     return cifra_arabiga
 }
 
-console.log(conversionRomana('III'))
-console.log(conversionRomana('XIV'))
-console.log(conversionRomana('MMXXIV'))
-console.log(conversionRomana('MXMVII'))
+// console.log(conversionRomana('III'))
+// console.log(conversionRomana('XIV'))
+// console.log(conversionRomana('MMXXIV'))
+// console.log(conversionRomana('MXMVII'))
 
 // Punto 4
 
@@ -59,4 +59,6 @@ function descomposicion(palabra){
     }
     return ""
 }
-console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu"))
+// console.log(descomposicion("malhumor,al,hum,humor,m,mal,malhu"))
+
+export {desglosarString, twoSum, conversionRomana, descomposicion}

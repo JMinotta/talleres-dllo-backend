@@ -1,0 +1,30 @@
+{
+  "name": "talleres-dllo-backend",
+  "version": "1.0.0",
+  "description": "Talleres backend",
+  "main": "taller-01.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js ./proyecto-01/server.js",
+    "start": "node server.js ./proyecto-01/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMinotta/talleres-dllo-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMinotta/talleres-dllo-backend/issues"
+  },
+  "homepage": "https://github.com/JMinotta/talleres-dllo-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

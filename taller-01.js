@@ -1,17 +1,20 @@
 
 // Punto 1
 function convertidorTemp(temperatura) {
-    return Tempconvertida = temperatura * (9/5) + 32
+    const Tempconvertida = temperatura * (9/5) + 32
+    return Tempconvertida
 }
 
 // Punto 2
 function resolvedor(a,b,c,resultadoPositivo){
-    let raiz=((b**2)-4*a*c)**(1/2)
+    const raiz = Math.sqrt(b ** 2 - 4 * a * c);
+    let x;
     if (resultadoPositivo) {
-        return x = (-b + raiz)/(2*a)
+        x = (-b + raiz) / (2 * a);
     } else {
-        return x = (-b - raiz)/(2*a)
+        x = (-b - raiz) / (2 * a);
     }
+    return x;
 }
 
 
@@ -77,3 +80,4 @@ function peorParidad(numero) {
     }
 }
 
+export {convertidorTemp, resolvedor, mejorParidad, peorParidad}

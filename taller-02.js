@@ -71,3 +71,5 @@ function missingNumbers(lista){
 
 /*numeros = [7,2,4,6,3,9]
 console.log(missingNumbers(numeros))*/
+
+export {findMax, includes, sum, missingNumbers}
