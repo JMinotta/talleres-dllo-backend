@@ -5,8 +5,8 @@
   "main": "taller-01.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js ./proyecto-01/server.js",
-    "start": "node server.js ./proyecto-01/server.js",
+    "dev": "nodemon ./proyecto-01/server.js",
+    "start": "node ./proyecto-01/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
